@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+h1 {
+    font-size: 1.1em;
+
+}
+h2 {
+    font-size: 1em;
+    font-weight: 300;
+
+}
+h3 {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/*----------------------  Header  --------------- */
+header {
+	color: #fff;
+}
+
+.header {
+	background-color: #000;
+    width: 100%;
+}
+
+.nav-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 4em;
+	background-color: #000;
+}
+
+.logoContainer {
+	float: left;
+	height: 4rem;
+	width: 50%;
+	position: relative;
+}
+
+.goCartLogo{
+	position: absolute;
+	top: 0.5rem;
+	left: 4.5rem;
+	font-size: 2.5rem;
+	color: #CEFA05;
+}
+
+.textLogo{
+	padding: 1.2rem 0 0 1rem;
+	color: #fff;
+}
+
+.go{
+	color: #CEFA05;
+}
+
+.cartLink{
+	position: relative;
+}
+
+.cartLogo{
+	float: right;
+	color: #fff;
+	font-size: 1.3rem;
+	padding: 1.3rem 2.1rem;
+}
+
+.count{
+	position: absolute;
+	top: 1rem;
+	right: 1.4rem;
+	text-align: right;
+	background-color: #CEFA05;
+	color: #000;
+	font-weight: bold;
+	border-radius: 50%;
+	padding: 0.03rem 0.2rem;
+}
+
+.headerContent{
+	background-attachment: fixed;
+	height: 60vh;
+}
+
+.logoContainer2 {
+	font-size: 1.8rem;
+	position: relative;
+	width: 60%;
+	margin: auto auto 2rem auto;
+	padding-top: 10rem;
+}
+
+.goCartLogo2{
+	position: absolute;
+	top: 10.2rem;
+	left: 7.5rem;
+	font-size: 4rem;
+	color: #CEFA05;
+}
+
+.quote {
+    font-size: 1.5em;
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+    padding: 0 4em;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -------------------  Main section ----------------- */
+main {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 2rem;
+	margin: 2rem;
+	height: 100%;
+}
+
+.main a{
+	text-decoration: none;
+	color: #000;
+}
+
+/* flip card */
+
+.flip-card {
+	width: 100%;
+	height: 360px;
+	padding: 2rem 0;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	color: #000;
+}
+
+.flip-card img {
+	width: auto;
+	max-height: 180px;
+}
+
+/* ---------------------Product page --------------------- */
+.productContainer {
+	width: 100%;
+	margin-top: 6rem;
+}
+.productContainer img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 4rem;
+}
+
+.bShopping{
+	margin-top: 3rem;
+}
+
+.bShopping a{
+	background-color: #CEFA05;
+	padding: 0.5rem 1rem;
+	color: #000;
+	border-radius: 3px;
+}
+
+/* ----------------------Cart page------------------------- */
+.cartSection{
+	padding: 0 2rem;
+}
+.emptyCartContainer{
+	position: relative;
+	height: 90vh;
+	width: 100%;
+	text-align: center;
+}
+.emptyCart{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+table{
+	margin-top: 5rem;
+	text-align: center;
+	width: 100%;
+}
+
+tr{
+	padding: 1rem 0;
+}
+
+tr.borderBottom td{
+	border-bottom: 1px solid #000;
+}
+
+.tableHeader{
+	background-color: #000;
+	color: #fff;
+}
+
+.tableBody{
+	height: 5rem;
+}
+
+.productCeld{
+	width: 3.2rem;
+}
+
+.tableImg{
+	width: 100%;
+}
+
+.cartQuantity{
+	background-color: transparent;
+	border: none;
+}
+
+.removeForm{
+	margin-right: 0.5rem;
+	float: right;
+}
+
+.remove{
+	font-size: 1rem;
+	font-weight: bold;
+	color: #AE2828;
+	background-color: transparent;
+	border: none;
+}
+
+
+/* FOOTER style */
+
+footer {
+	display: block;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: grey;
+	color: white;
+	text-align: center;
+}
+
+footer p {
+	font-size: 0.8em;
+	font-weight: 200;
+	padding: 0.7em 0;
+}
+
+.icon1 {
+	width: 3em;
+	height: 2em;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+.icon2 {
+	width: 2.7em;
+	height: 1.7em;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+
+/* go TOP button */
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: darkgrey;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 1.8rem;
+}
+
+#myBtn:hover {
+	background-color: #555;
+}
+
+/* **************************************************** DASBOARD MOBILE STYLE *************************************************** */
+/* ------------ Dashboard header -------------- */
+.active{
+	background-color: #fff;
+}
+
+.dashboard-header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #031019;
+	width: 100%;
+}
+
+.dashboard-menu{
+	float: right;
+	padding: 1rem;
+	color: #03B8C4;
+	font-size: 1.5rem;
+}
+
+.dashboard-navBar{
+	display: none;
+}
+
+.dashboard-navBarLink{
+	color: #8D9EA5;
+	font-size: 1.5rem;
+}
+
+.dashboard-navBarLink:hover{
+	background-color: #fff;
+}
+
+.dashboard-overlay{
+	position: fixed;
+	width: 100%;
+	top: 3rem;
+	left: 110%;
+	padding: 0.5rem 0;
+	text-align: center;
+	background-color: #031019;
+	transition: left 0.5s ease-in-out;
+}
+
+.dashboard-overlayLink{
+	color: #8D9EA5;
+	font-size: 1.5rem;
+	padding: 0 1rem;
+}
+
+/* ----------- Home page --------------- */
+
+.dashboard-main{
+	padding: 4rem 1rem;
+	text-align: center;
+}
+
+.dashboard-title{
+	font-size: 1.5rem;
+	margin-top: 2rem;
+}
+
+.option-wrapp{
+	max-width: 15rem;
+	margin: 4rem auto;
+	padding: 2rem;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.option-wrapp i{
+	font-size: 4rem;
+	padding: 2rem 0;
+}
+
+.option-wrapp p{
+	font-size: 1rem;
+	margin: 1rem 0;
+}
+
+/* ----------- Products page ---------------- */
+.stockSection{
+	padding: 4rem 1rem;
+}
+
+.stockSection h1{
+	display: inline;
+	margin-right: 2rem;
+}
+.stockProductContainer{
+	width: 100%;
+	border: 1px solid #8D9EA5;
+	margin: 1rem auto;
+}
+
+.stockProduct {
+	height: 5rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.stockProduct img{
+	height: 5rem;
+	width: auto;
+}
+
+.stockProduct p,
+.stockProduct h1{
+	line-height: 5rem;
+	font-size: 0.8rem;
+}
+
+.editButtonContainer{
+	margin-bottom: 2rem;
+}
+
+.btn{
+	background-color: #CEFA05;
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+	color: #000;
+	padding: 0.1rem 0.5rem;
+
+
+}
+
+/* ----------- Add product page ------------- */
+
+.upLoadForm{
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.upLoadForm img{
+	display: block;
+	width: 60%;
+	margin: 0 auto;
+	height: auto;
+	border-radius: 50%;
+}
+
+.upLoadForm input{
+	display: block;
+	margin: 1rem auto;
+}
+
+@media only screen and (min-width: 700px) {
+
+	/*------------- header------------- */
+	.nav-bar{
+		padding: 0 1rem;
+	}
+	.headerContent{
+		height: 70vh;
+	}
+	
+	.logoContainer2 {
+		text-align: center;
+		padding-right: 2.5rem;
+	}
+	
+	.goCartLogo2{
+		position: absolute;
+		top: 10.2rem;
+		right: 0;
+		font-size: 4rem;
+		color: #CEFA05;
+	}
+
+	/* ---------------- product page-----------*/
+	main {
+		margin: 2em 10em;
+	}
+
+	.productContainer {
+		width: 100%;
+		margin-top: 6rem;
+	}
+	.productContainer img {
+		width: 45%;
+		height: auto;
+		margin-bottom: 4rem;
+	}
+
+	.productDetails{
+		float: right;
+		margin-top: 3rem;
+		width: 55%;
+		font-size: 1.3rem;
+	}
+
+	/* ----------------cart page------------- */
+
+	.cartSection{
+		padding: 0 15rem;
+	}
+
+	.cartSection img{
+		width: 10rem;
+	}
+	.productDetails h1,
+	.div,
+	input {
+		margin-bottom: 1rem;
+	}
+
+
+/* **************************************************** DASBOARD DESKTOP STYLE *************************************************** */
+.dashboard-header{
+	display: block;
+	width: 5%;
+	height: 100vh;
+}
+
+.dashboard-main{
+	margin-left: 5%;
+}
+
+#dashboard-menu{
+	display: none;
+}
+
+.dashboard-navBar{
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 0;
+	padding: 0;
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+.dashboard-navBarLink{
+	display: block;
+	padding: 1rem 0;
+}
+
+.dashboard-overlay{
+	display: none;
+}
+
+/* ----------- Home page --------------- */
+
+.dashboard-main{
+	padding: 4rem 1rem;
+	text-align: center;
+}
+
+.dashboard-title{
+	font-size: 1.5rem;
+	margin-top: 2rem;
+}
+
+.option-wrapp{
+	max-width: 15rem;
+	margin: 4rem auto;
+	padding: 2rem;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.optionsContainer{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	width: 60%;
+	margin: 0 auto;
+}
+
+.option-wrapp i{
+	font-size: 4rem;
+	padding: 2rem 0;
+}
+
+.option-wrapp p{
+	font-size: 1rem;
+	margin: 1rem 0;
+}
+
+/* ----------- Products page ---------------- */
+.stockSection{
+	margin: 0 auto;
+	width: 60%;
+}
+
+.stockProduct {
+	height: 7rem;
+}
+
+.stockProduct img{
+	height: 7rem;
+}
+
+.stockProduct p,
+.stockProduct h1{
+	line-height: 7rem;
+	font-size: 1rem;
+}
+
+/* ----------- Add product page ---------------- */
+
+.upLoadForm{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.upLoadForm img{
+	width: 30%;
+}
+
+}
+
+
